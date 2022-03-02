@@ -18,7 +18,7 @@ notifyOption:
     #############2 发信方邮箱账号密码,smtp服务器qq邮箱为smtp.qq.com,163邮箱为smtp.163.com
     smtpOption:
         userName: ''#此处填写发信箱的账号
-        passWord: ''#注意，此处填写的是--，不是填写你的QQ密码
+        passWord: ''#注意，此处填写的是邮箱授权码，不是填写你的QQ密码
         server: 'smtp.qq.com'
     #############3 完善qmsgKey即可,需要完善-user字段中qId参数，详见下方例子
     qmsgOption:
